@@ -1,0 +1,98 @@
+body {
+
+	font-family: Sans-serif;
+	background-image: url("http://wallpapercave.com/wp/oJ4TXh3.jpg");
+
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    position: relative;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+#next {
+    border:1px solid;
+    border-radius:4px;
+    width: 60px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #e6e6e6;
+    color: black;
+    margin: 0 2px 0 2px;
+}
+
+
+#start {
+    
+    border:1px solid;
+    border-radius:4px;
+    width: 65px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #e6e6e6;
+    color: black;
+    margin: 0 2px 0 2px;
+    display: none;
+    
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+li {
+    
+    opacity: 1.0;
+    
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+
+    opacity: .8;
+    width:50%;
+	height: 50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: white;
+    border:1.6px solid #333333;
+    border-radius:5px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+	
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
